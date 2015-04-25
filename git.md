@@ -148,9 +148,13 @@ $ git push -u origin --all # 第一次推送仓库
 
 $ git remote add origin git@bitbucket.org:mhartl/hello_app.git
 ```
-
+### 参考
+    
 [git1](http://railstutorial-china.org/book/chapter1.html#version-control-with-git)     
 [git2](http://railstutorial-china.org/book/chapter1.html#version-control-with-git)      
 [git3](http://rogerdudler.github.io/git-guide/index.zh.html)    
 [git4](http://gitref.org/zh/basic/#commit)  
-[add ssh](http://blog.csdn.net/keyboardota/article/details/7603630)
+[add ssh](http://blog.csdn.net/keyboardota/article/details/7603630)     
+[ssh登录github](http://www.tuicool.com/articles/IrIzamU)    
+[使用git建立远程仓库，让别人git clone下来 ](http://blog.sina.com.cn/s/blog_6405313801011vsj.html)     
+[Github 中使用 SSH clone URL](http://www.kaixuan.me/archives/333)
