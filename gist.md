@@ -3,14 +3,14 @@ Gists是 GitHub 推出的基于 Git 的代码片段服务。Gists页面提供Jav
 ```
 html里面 把代码引入即可
 <script src="https://gist.github.com/tiimgreen/10545817.js"></script>
-效果
+效果如下图
 ```
-![](gist.png)
+![1](gist.png)
    
     
     
-实在不行    
-iframe html框架
+### 实在不行用 iframe html框架   
+ 
 ```
 <iframe src="https://gist.github.com/tiimgreen/10545817.pibb" name="iframe_a"  width="500" height="100"></iframe>  
 ```
