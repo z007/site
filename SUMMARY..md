@@ -2,5 +2,5 @@
 
 * [gist](gist.md)
 * [git](git.md)
-* github
+* [github](github.md)
 
