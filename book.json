@@ -1,5 +1,9 @@
 {
-    "plugins": [
-        "myPlugin@1.2.3"
-    ]
+    "styles": {
+        "website": "website.css",
+        "ebook": "ebook.css",
+        "pdf": "pdf.css",
+        "mobi": "mobi.css",
+        "epub": "epub.css"
+    }
 }
