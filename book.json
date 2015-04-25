@@ -1,0 +1,5 @@
+{
+    "plugins": [
+        "myPlugin@1.2.3"
+    ]
+}
