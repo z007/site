@@ -1,6 +1,6 @@
 # Summary
 
-* [gist](gist.md)
 * [git](git.md)
+* [gist](gist.md)
 * [github](github.md)
 
