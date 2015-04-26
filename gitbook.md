@@ -10,7 +10,7 @@ git clone x
 cd x
 gitbook build ./
 
-gitbook server -p 8080
+gitbook serve -p 8080
 
 本地修改同步到远端
 git add -A
