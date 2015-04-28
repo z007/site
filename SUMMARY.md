@@ -5,5 +5,5 @@
 * [github](github.md)
 * [gist](gist.md)
 * [gitbook](gitbook.md)
-* sublimegit
+* [sublimegit](sublimegit.md)
 
