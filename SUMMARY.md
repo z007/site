@@ -7,4 +7,3 @@
 * [gitbook](gitbook.md)
 * [sublimegit](sublimegit.md)
 * [sublimeplus](sublime plus/sublimeplus.md)
-
