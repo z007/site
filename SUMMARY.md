@@ -6,5 +6,5 @@
 * [gist](gist.md)
 * [gitbook](gitbook.md)
 * [sublimegit](sublimegit.md)
-* sublimeplus
+* [sublimeplus](sublime plus/sublimeplus.md)
 
