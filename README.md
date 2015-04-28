@@ -2,3 +2,4 @@
 [github](github.md)     
 [gist](gist.md)       
 [gitbook](gitbook.md)
+[sublime git](sublimegit.md)
