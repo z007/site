@@ -158,3 +158,5 @@ $ git remote add origin git@bitbucket.org:mhartl/hello_app.git
 [ssh登录github](http://www.tuicool.com/articles/IrIzamU)    
 [使用git建立远程仓库，让别人git clone下来 ](http://blog.sina.com.cn/s/blog_6405313801011vsj.html)     
 [Github 中使用 SSH clone URL](http://www.kaixuan.me/archives/333)
+
+[git 自动换行](http://blog.csdn.net/igorzhang/article/details/17420949)
