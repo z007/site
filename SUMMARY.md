@@ -7,5 +7,5 @@
 * [gitbook](gitbook.md)
 * [sublimegit](sublimegit.md)
 * [sublimeplus](sublime plus/sublimeplus.md)
-* gitcommand
+* [gitcommand](gitcommand/gitcommand.md)
 
