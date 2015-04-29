@@ -161,3 +161,7 @@ $ git remote add origin git@bitbucket.org:mhartl/hello_app.git
 
 [git 自动换行](http://blog.csdn.net/igorzhang/article/details/17420949)
 [git commmit -m注释中换行问题 就是在引号里面换行即可](http://blog.csdn.net/longxiaowu/article/details/42146061)
+
+[git checkout](http://www.tuicool.com/articles/A3Mn6f)  
+
+[git checkout2](http://www.cnblogs.com/craftor/archive/2012/11/04/2754147.html)
