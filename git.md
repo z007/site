@@ -160,3 +160,4 @@ $ git remote add origin git@bitbucket.org:mhartl/hello_app.git
 [Github 中使用 SSH clone URL](http://www.kaixuan.me/archives/333)
 
 [git 自动换行](http://blog.csdn.net/igorzhang/article/details/17420949)
+[git commmit -m注释中换行问题](http://blog.csdn.net/longxiaowu/article/details/42146061)
