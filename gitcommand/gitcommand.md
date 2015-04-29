@@ -1,5 +1,10 @@
 
 http://www.bootcss.com/p/git-guide/  
+```
+注意上面链接中所提到的工作目录是指你在本地**已经**保存的文件
+
+```
+
 
 ```
 …or create a new repository on the command line
