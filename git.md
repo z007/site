@@ -1,6 +1,6 @@
 ```
 参考 git ssh key
-```    
+```
 ```
 
 使用git clone命令从github上同步github上的代码库时，如果使用SSH链接（如我自己的beagleOS项目：git@github.com:DamonDeng/beagleOS.git），而你的SSH key没有添加到github帐号设置中，系统会报下面的错误：
@@ -149,19 +149,60 @@ $ git push -u origin --all # 第一次推送仓库
 $ git remote add origin git@bitbucket.org:mhartl/hello_app.git
 ```
 ### 参考
-    
-[git1](http://railstutorial-china.org/book/chapter1.html#version-control-with-git)     
-[git2](http://railstutorial-china.org/book/chapter1.html#version-control-with-git)      
-[git3](http://rogerdudler.github.io/git-guide/index.zh.html)    
-[git4](http://gitref.org/zh/basic/#commit)  
-[add ssh](http://blog.csdn.net/keyboardota/article/details/7603630)     
-[ssh登录github](http://www.tuicool.com/articles/IrIzamU)    
-[使用git建立远程仓库，让别人git clone下来 ](http://blog.sina.com.cn/s/blog_6405313801011vsj.html)     
+
+[git1](http://railstutorial-china.org/book/chapter1.html#version-control-with-git)
+[git2](http://railstutorial-china.org/book/chapter1.html#version-control-with-git)
+[git3](http://rogerdudler.github.io/git-guide/index.zh.html)
+[git4](http://gitref.org/zh/basic/#commit)
+[add ssh](http://blog.csdn.net/keyboardota/article/details/7603630)
+[ssh登录github](http://www.tuicool.com/articles/IrIzamU)
+[使用git建立远程仓库，让别人git clone下来 ](http://blog.sina.com.cn/s/blog_6405313801011vsj.html)
 [Github 中使用 SSH clone URL](http://www.kaixuan.me/archives/333)
 
 [git 自动换行](http://blog.csdn.net/igorzhang/article/details/17420949)
 [git commmit -m注释中换行问题 就是在引号里面换行即可](http://blog.csdn.net/longxiaowu/article/details/42146061)
 
-[git checkout](http://www.tuicool.com/articles/A3Mn6f)  
+[git checkout](http://www.tuicool.com/articles/A3Mn6f)
 
 [git checkout2](http://www.cnblogs.com/craftor/archive/2012/11/04/2754147.html)
+
+------------------------------------------
+```
+git 获取别人新建并且已经push 在远程库中的分支
+```
+
+```
+初用 git，很多不懂 ，下面都是常用但是却老是忘记的方法
+一 、 git 获取别人新建并且已经push 在远程库中的分支
+①：首先 如果还没clone 代码库 先从 git clone 项目下来。
+
+进入项目中，可以使用 git branch 查看当前所在分支，初始都是在master下面 。
+
+②：然后 git branch -a 可以查看本地和远程分支，如果自己还没创建过分支  那本地就只存在 master分支，
+
+③：然后 我们 git checkout xxxx 切换到xxx分支  注意：xxx是相应的分支的名字。但是我们 目前还是存在 一个head detach 状态，不管我们pull 还是push 都是不成功的
+
+④： 这时候我们需要 执行git branch xxx （这个xxx是任意名字  不过建议设置和我们想要切换的目标分支名称）
+
+⑤： 然后 执行git --set-upstream <remote-branch>  绑定远程分支  <remoter-branch>就是我们想要却换到的目标分支
+
+二、忽略文件权限
+
+git config core.fileMode false
+
+三、忽略已经被跟踪的文件
+
+一般从库上拉下来的文件都是被跟踪的文件，但是有些文件我们需要自定义 比如配置文件，但是我们又不想跟踪我们的修改信息和上传，这时候我们可以使用
+
+git update-index --assume-unchanged filename   忽略跟踪
+
+
+git update-index --no-assume-unchanged filename  恢复跟踪
+```
+[参考](http://www.open-open.com/lib/view/open1429105750142.html)
+
+------------------------------------------------------
+```track
+```
+
+[git 把远程分支拿到本地，并建立关联关系track](http://blog.csdn.net/arkblue/article/details/9790129)

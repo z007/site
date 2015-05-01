@@ -1,5 +1,5 @@
 
-http://www.bootcss.com/p/git-guide/  
+http://www.bootcss.com/p/git-guide/
 ```
 注意上面链接中所提到的工作目录是指你在本地**已经**保存的文件
 
@@ -22,5 +22,5 @@ git push -u origin master
 …or import code from another repository
 ```
 ![github new empty drum store ](h007 c2.png)
-[diff1](http://www.cnblogs.com/cspku/articles/Git_cmds.html)  
+[diff1](http://www.cnblogs.com/cspku/articles/Git_cmds.html)
 [diff2](http://www.cnblogs.com/wish123/p/3963224.html)
