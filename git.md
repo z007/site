@@ -202,7 +202,8 @@ git update-index --no-assume-unchanged filename  恢复跟踪
 [参考](http://www.open-open.com/lib/view/open1429105750142.html)
 
 ------------------------------------------------------
-```track
+``` 
+track
 ```
 
 [git 把远程分支拿到本地，并建立关联关系track](http://blog.csdn.net/arkblue/article/details/9790129)
